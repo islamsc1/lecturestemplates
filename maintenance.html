@@ -46,10 +46,13 @@
     <div class="container">
         <h1>We'll be back soon!</h1>
         <p>Sorry for the inconvenience but we're performing some maintenance at the moment. We'll be back online shortly!</p>
-        <button onclick="() => {
-location.href = 'https://lectures.iasys.me/'; 
-location.reload();
-}">Refresh</button>
+        <button onclick="reloadd()">Refresh</button>
     </div>
 </body>
+<script>
+function reloadd() {
+    location.href = 'https://lectures.iasys.me/'; 
+location.reload();
+}
+ </script>
 </html>
